@@ -21,13 +21,13 @@ There are additional enhancements that can be incorporated into your tagger that
     
 ### Baseline
 
-[baseline.ipynb](https://github.com/1ytic/hmm-tagger/baseline.ipynb)
+[baseline.ipynb](https://github.com/1ytic/hmm-tagger/blob/master/baseline.ipynb)
 
 The baseline hidden Markov model have been able to achieve >92% tag accuracy with larger tagsets on realistic text corpora.
     
 ### Laplace Smoothing
 
-[laplace-smoothing.ipynb](https://github.com/1ytic/hmm-tagger/laplace-smoothing.ipynb)
+[laplace-smoothing.ipynb](https://github.com/1ytic/hmm-tagger/blob/master/laplace-smoothing.ipynb)
 
 In this notebook, I smoothed only transition probability from tag to tag, and added unknown transitions, which tags exists in the training data. This technique improve the baseline model for 1% in absolute and achieve >93% tag accuracy.
 
